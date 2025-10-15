@@ -1,4 +1,12 @@
 import streamlit as st
+st.info(
+    "🔄 **Update Notice:** This version of *Will It Rain On My Parade?* was developed by **Team DataNova AI** "
+    "for the NASA Space Apps Challenge 2025 using Meteomatics data. "
+    "The original Meteomatics API credentials have since expired. "
+    "A parallel demo version using an open API is available below.\n\n"
+    "### 👉 [**RainCast AI (v3)**](https://rain-cast-ai.streamlit.app/)\n\n"
+    "_No functional changes were made beyond the API replacement._"
+)
 import datetime as dt
 import pandas as pd
 import os
